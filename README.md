@@ -3,6 +3,8 @@
 Terraform module which creates a hosted zone in AWS Route 53, and NS records in Dyn
 to forward DNS requests for a given domain to the new hosted zone.
 
+Uses the [AWS Provider](https://www.terraform.io/docs/providers/aws/) and [Dyn Provider](https://www.terraform.io/docs/providers/dyn/index.html).
+
 ## Usage
 
 ```hcl
