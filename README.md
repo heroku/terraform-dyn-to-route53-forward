@@ -7,7 +7,7 @@ to forward DNS requests for a given domain to the new hosted zone.
 
 ```hcl
 module "forward-zone" {
-  source = "heroku/terraform-dyn-to-route53-forward"
+  source = "github.com/heroku/terraform-dyn-to-route53-forward"
   forward_domain = "forward.me.mydomain.com"
   root_domain = "mydomain.com"
 }
